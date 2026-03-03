@@ -4,7 +4,7 @@ Software Engineer contributing to the [Node.js](https://github.com/nodejs/node) 
 
 I build with TypeScript, Node.js, Python, React, NestJS, and PostgreSQL.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/thisalihassan)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alihassan27/)
 
 ---
 
