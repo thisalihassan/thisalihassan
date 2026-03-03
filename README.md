@@ -75,4 +75,4 @@ Contributed across multiple subsystems including `sqlite`, `buffer`, `stream`, `
 
 ---
 
-<sub>Want to work together? Reach me at [ali@thisalihassan.com](mailto:ali@thisalihassan.com) or connect on [LinkedIn](https://linkedin.com/in/thisalihassan).</sub>
+<sub>Want to work together? Connect on [LinkedIn](https://linkedin.com/in/thisalihassan).</sub>
