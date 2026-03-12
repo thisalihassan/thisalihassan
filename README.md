@@ -14,15 +14,15 @@ I build with TypeScript, Node.js, Python, React, NestJS, and PostgreSQL.
 
 #### [Node.js](https://github.com/nodejs/node) — Runtime & Core
 
-Contributed across multiple subsystems including `sqlite`, `test_runner`, `url`, `benchmark`, `stream`, `buffer`:
+Contributed across multiple subsystems including `stream`, `sqlite`, `test_runner`, `url`, `benchmark`, `buffer`:
 
 | PR | Area | Status |
 |---|---|---|
+| [Replace bind with arrow function for onwrite callback](https://github.com/nodejs/node/pull/62087) | stream | Merged |
 | [Avoid extra copy for large text binds](https://github.com/nodejs/node/pull/61580) | sqlite | Merged |
 | [Expose worker ID for concurrent test execution](https://github.com/nodejs/node/pull/61394) | test_runner | Merged |
 | [Implement parse method for safer URL parsing](https://github.com/nodejs/node/pull/52280) | url | Merged |
 | [Conditionally use spawn with taskset for CPU pinning](https://github.com/nodejs/node/pull/52253) | benchmark | Merged |
-| [Replace bind with arrow function for onwrite callback](https://github.com/nodejs/node/pull/62087) | stream | Open |
 | [Benchmark (WIP): reduce config for fs benchmarks](https://github.com/nodejs/node/pull/62085) |  | Open |
 | [Fix destructuring in dgram/single-buffer and update N convention in crypto](https://github.com/nodejs/node/pull/62084) | benchmark | Open |
 | [Optimize column name creation and text value encoding](https://github.com/nodejs/node/pull/61954) | sqlite | Open |
