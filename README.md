@@ -10,47 +10,22 @@ I build with TypeScript, Node.js, Python, React, NestJS, and PostgreSQL.
 
 ### Open Source Contributions
 
-<!-- CONTRIBUTIONS:START -->
+Active contributor to [Node.js](https://github.com/nodejs/node) core (C++ & JavaScript) across `stream`, `sqlite`, `test_runner`, `url`, `buffer`, and `benchmark` subsystems. Also contributed to the [Node.js website](https://github.com/nodejs/nodejs.org) and [Bear](https://github.com/rizsotto/Bear).
 
-#### [Node.js](https://github.com/nodejs/node) — Runtime & Core
+A few highlights:
 
-Contributed across multiple subsystems including `stream`, `sqlite`, `test_runner`, `url`, `benchmark`, `buffer`:
+- [**Implement `URL.parse()` for safer URL parsing**](https://github.com/nodejs/node/pull/52280) — new static method on the `url` module, shipped in Node.js core
+- [**Optimize `stream` internals: replace bind with arrow for onwrite**](https://github.com/nodejs/node/pull/62087) — performance improvement in one of Node's most heavily used subsystems
+- [**Avoid extra copy for large text binds in SQLite**](https://github.com/nodejs/node/pull/61580) — C++ optimization reducing memory overhead for large string binds
 
-| PR | Area | Status |
-|---|---|---|
-| [Replace bind with arrow function for onwrite callback](https://github.com/nodejs/node/pull/62087) | stream | Merged |
-| [Avoid extra copy for large text binds](https://github.com/nodejs/node/pull/61580) | sqlite | Merged |
-| [Expose worker ID for concurrent test execution](https://github.com/nodejs/node/pull/61394) | test_runner | Merged |
-| [Implement parse method for safer URL parsing](https://github.com/nodejs/node/pull/52280) | url | Merged |
-| [Conditionally use spawn with taskset for CPU pinning](https://github.com/nodejs/node/pull/52253) | benchmark | Merged |
-| [Benchmark (WIP): reduce config for fs benchmarks](https://github.com/nodejs/node/pull/62085) |  | Open |
-| [Fix destructuring in dgram/single-buffer and update N convention in crypto](https://github.com/nodejs/node/pull/62084) | benchmark | Open |
-| [Optimize column name creation and text value encoding](https://github.com/nodejs/node/pull/61954) | sqlite | Open |
-| [Improve performance of multiple Buffer operations](https://github.com/nodejs/node/pull/61871) | buffer | Open |
-
-#### [Node.js Website](https://github.com/nodejs/nodejs.org)
-
-| PR | Status |
-|---|---|
-| [RSS alternate link tag does not expose release/vuln feeds](https://github.com/nodejs/nodejs.org/pull/6562) | Merged |
-| [Added Urdu language config](https://github.com/nodejs/nodejs.org/pull/6556) | Merged |
-| [Add PowerShell support to Shiki](https://github.com/nodejs/nodejs.org/pull/6538) | Merged |
-
-#### [Bear](https://github.com/rizsotto/Bear) — Compilation Database Generator
-
-| PR | Status |
-|---|---|
-| [Add -arch flag to GCC flags to prevent argument loss on macOS ARM](https://github.com/rizsotto/Bear/pull/674) | Merged |
-
-<!-- CONTRIBUTIONS:END -->
+Browse all my contributions: [Node.js core PRs](https://github.com/nodejs/node/pulls?q=is%3Apr+author%3Athisalihassan) · [Node.js website PRs](https://github.com/nodejs/nodejs.org/pulls?q=is%3Apr+author%3Athisalihassan)
 
 ---
 
 ### Projects
 
-- [**nestjs-nextjs-boilerplate**](https://github.com/thisalihassan/nestjs-nextjs-boilerplate) — NestJS + Next.js monorepo with Auth, TypeORM, Postgres, Docker
-- [**gpt4-langchain-pdf-chatbot**](https://github.com/thisalihassan/gpt4-langchain-pdf-chatbot) — GPT-4 & LangChain chatbot for querying large PDF documents
-- [**nestjs-react-boilerplate**](https://github.com/thisalihassan/nestjs-react-boilerplate) — NestJS + React + Webpack monorepo with full auth and Docker
-- [**recall-rag**](https://github.com/thisalihassan/recall-rag) — RAG implementation in TypeScript
+[**Promptrail**](https://github.com/thisalihassan/promptrail) — Prompt-level version control for AI code editing. Tracks which AI prompt caused which file changes, with full diffs and selective rollback. Ships as a [Cursor/VS Code extension](https://open-vsx.org/extension/thisalihassan/promptrail) and an [npm CLI](https://www.npmjs.com/package/promptrail). Supports Cursor and Claude Code.
 
----
+- [**gpt4-langchain-pdf-chatbot**](https://github.com/thisalihassan/gpt4-langchain-pdf-chatbot) — GPT-4 & LangChain chatbot for querying large PDF documents
+- [**nestjs-nextjs-boilerplate**](https://github.com/thisalihassan/nestjs-nextjs-boilerplate) — NestJS + Next.js monorepo with Auth, TypeORM, Postgres, Docker
+
